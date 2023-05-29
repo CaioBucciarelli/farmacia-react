@@ -7,6 +7,7 @@ function Sobre(){
         <div>
             <Header/>
             <h1>pagina sobre</h1>
+            <Footer/>
         </div>
     )
 

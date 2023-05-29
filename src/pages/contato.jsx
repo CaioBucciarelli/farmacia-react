@@ -7,6 +7,7 @@ function Produtos(){
         <div>
             <Header/>
             <h1>pagina contato</h1>
+            <Footer/>
         </div>
     )
 
