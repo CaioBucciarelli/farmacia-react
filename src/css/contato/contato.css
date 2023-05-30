@@ -27,6 +27,12 @@
 .contato-endereco {
   margin-bottom: 32px;
   padding-left: 28px;
+  background: url('../../assets/icones/local.svg') no-repeat 0px 2px;
+}
+
+.contato-endereco {
+  margin-bottom: 32px;
+  padding-left: 28px;
 }
 
 .contato-endereco p {
@@ -44,8 +50,17 @@
   color: var(--cor-0);
 }
 
+.contato-meios a:first-child {
+  background: url('../../assets/icones/email.svg') no-repeat 0px 2px;
+}
+
 .contato-meios a:nth-child(2) {
   margin-bottom: 32px;
+}
+
+.contato-meios a:nth-child(3) {
+  background: url('../../assets/icones/telefone.svg') no-repeat 0px 2px;
+  margin-bottom: 60px;
 }
 
 .contato-redes {
