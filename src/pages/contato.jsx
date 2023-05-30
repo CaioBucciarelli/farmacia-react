@@ -1,12 +1,14 @@
 import "../css/style.css"
 import Header from "../interpolacao/header"
+import Footer from "../interpolacao/footer"
+import ContatoConteudo from "../interpolacao/contato-conteudo"
 
 function Produtos(){
 
     return(
         <div>
             <Header/>
-            <h1>pagina contato</h1>
+            <ContatoConteudo/>
             <Footer/>
         </div>
     )

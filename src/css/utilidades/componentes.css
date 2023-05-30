@@ -1,3 +1,11 @@
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
 .botao {
   display: inline-block;
   padding: 16px 32px;
@@ -14,4 +22,27 @@
 
 .botao:hover {
   background: linear-gradient(#6fbe5b, #319e16);
+}
+
+/* Titulos Internos */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
